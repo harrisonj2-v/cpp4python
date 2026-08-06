@@ -10,7 +10,7 @@
             A new element can be inserted into or deleted from any part of a vector,
             and automatic reallocation for other existing items in the vector will be applied.
             Unlike Python lists, vectors are homogeneous, so every element in the vector must be of the same type.</p>
-        <p>Vectors are a class that is available through a library called the Standard Template Library (STL), and one uses a <c>&lt; &gt;</c>
+        <p>Vectors are a class that is available through a library called the Standard Template Library (STL), and one uses a <c>&lt; &gt;</c> <idx><c> &lt; &gt; </c> </idx>
             notation to indicate the data type of the elements. In order to use vectors, One
             needs to include the vector library.</p>
         <pre>#include &lt;vector&gt;</pre>
