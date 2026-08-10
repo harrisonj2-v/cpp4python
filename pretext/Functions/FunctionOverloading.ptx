@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="functions_function-overloading">
         <title>Function Overloading</title>
         <p><term>Function overloading</term> <idx>function overloading</idx> is the ability to create multiple functions with identical names but different implementations.
@@ -14,7 +15,7 @@
     <TabNode tabname="C++" tabnode_options="{'subchapter': 'FunctionOverloading', 'chapter': 'Functions', 'basecourse': 'cpp4python', 'optional': '', 'optclass': '', 'tabname': 'C++'}">
 
     <program xml:id="foverload_cpp" interactive="activecode" language="cpp">
-        <input>
+        <code>
 // demonstrates how function overloading works
 // by changing the parameters on the inputs.
 #include &lt;iostream&gt;
@@ -37,12 +38,12 @@ int main() {
 
     return 0;
 }
-        </input>
+        </code>
     </program>
             </TabNode><TabNode tabname="Python" tabnode_options="{'subchapter': 'FunctionOverloading', 'chapter': 'Functions', 'basecourse': 'cpp4python', 'optional': '', 'optclass': '', 'tabname': 'Python'}">
 
     <program xml:id="foverload_py" interactive="activecode" language="python">
-        <input>
+        <code>
 """Demonstrates the use of multiple parameters using a single function"""
 def myfunct(n, m=None):
     if m is None:
@@ -57,7 +58,7 @@ def main():
     myfunct(100);
 
 main()
-        </input>
+        </code>
     </program>
             </TabNode>
 <reading-questions xml:id="rqs-func-overloading">
@@ -139,9 +140,8 @@ main()
         <title>Self Check Challenge</title>
         <p>See if you can improve upon the program in the self check by keeping letters
             that are correct and only modifying one character in the best string so far.
-            This is a type of algorithm in the class of &#8216;hill climbing' algorithms, that
+            This is a type of algorithm in the class of ‘hill climbing' algorithms, that
             is we only keep the result if it is better than the previous one.</p>
         </exercise>    
 </reading-questions>
 </section>
-
